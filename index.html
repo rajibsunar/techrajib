@@ -30,9 +30,10 @@ header {
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
     header {
-        gap: 10px; /* Reduce gap for better spacing on tablets */
-        padding: 5px;
-    }
+          flex-wrap: wrap; /* Allow items to wrap */
+        justify-content: center; /* Center content on small screens */
+        gap: 10px; /* Reduce gap for smaller screens */
+        padding: 5px; /* Adjust padding */
 }
 
 @media screen and (max-width: 480px) {
