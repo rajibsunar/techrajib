@@ -19,7 +19,7 @@ header {
     justify-content: flex-start; /* Keeps the layout aligned to the left */
     align-items: center;
     gap: 19px; /* Keeps menu close to the profile photo */
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: black;
     padding: 3px;
     position: sticky;
     top: 0;
@@ -30,9 +30,9 @@ header {
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
     header {
-      
-        gap: 10px; /* Reduce gap for smaller screens */
-        padding: 5px; /* Adjust padding */
+        gap: 10px; /* Reduce gap for better spacing on tablets */
+        padding: 5px;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -43,7 +43,8 @@ header {
         padding: 8px;
     }
 }
-   
+
+
          .profile-photo {
     width: 100px;
     height: 100px;
